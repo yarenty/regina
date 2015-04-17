@@ -1,6 +1,6 @@
 <?php
 
-    $to = "";
+    $to = "regina@regina.ie";
     $from = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
     $name = $_REQUEST['name'];
