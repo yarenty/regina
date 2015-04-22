@@ -1,7 +1,7 @@
 <?php
 
     $to = "regina@regina.ie";
-    $from = $_REQUEST['name'];
+    $from = $_REQUEST['email'];
     $subject = $_REQUEST['subject'];
     $name = $_REQUEST['name'];
     $headers = "From: $from";
