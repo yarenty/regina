@@ -10,4 +10,4 @@
 * Clean Code, All files are well commented and organized
 * Documentation File Included
 * PSD credit: https://dribbble.com/themecurve
-* A template By <a href="http://www.themefisher.com>Themefisher</a>
+
