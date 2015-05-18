@@ -17,6 +17,26 @@
 		<!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<meta property="og:site_name" content="Regina.IE"/>
+<meta property="og:type" content="paintings"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:title" content="<? echo $title; ?>"/>
+<meta property="og:image" content="http://www.regina.ie/<?echo $img;?>"/>
+<meta property="og:description" content="<? echo $desc; ?>"/>
+
+<link rel="publisher" href="https://www.facebook.com/regina.paint">
+<meta property="article:publisher" content="https://www.facebook.com/regina.paint">
+<meta property="article:author" content="https://www.facebook.com/regina.paint">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="<? echo $desc; ?>">
+<meta name="twitter:title" content="<? echo $title; ?>">
+<meta name="twitter:domain" content="www.regina.ie">
+<meta name="twitter:creator" content="@regina_ie">
+<meta name="twitter:image:src" content="http://www.regina.ie/<? echo $img; ?>">
+<meta name="twitter:site" content="https://twitter.com/regina_ie">
+
+
 		<!-- icons -->
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -36,6 +56,7 @@
 <meta name="msapplication-TileColor" content="#0eb493">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#0eb493">
+
 
 
 		<!-- Google Font -->
@@ -102,15 +123,16 @@
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3">
-					<h4>Regina</h4>
 					<h1><? echo $title; ?></h1>
-					<h4>some more info here</h4>
+					<h4><? echo $desc; ?></h4>
+					<br/>
+					<br/>
 				</div>
 			</div><! --/row -->
 	    </div> <!-- /container -->
 	</div><! --/headerwrap -->
 
-	<section id="works"></section>
+
 	<div class="container">
 		<div class="row centered mt mb">
 			<div class="col-lg-12 col-md-12 col-sm-12">
@@ -120,43 +142,20 @@
 		</div><! --/row -->
 	</div><! --/container -->
 
-	<div id="social">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-twitter"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-instagram"></i></a>
-				</div>
-				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-tumblr"></i></a>
-				</div>
 
-			</div><! --/row -->
-		</div><! --/container -->
-	</div><! --/social -->
 
 	<div id="footerwrap">
+	<br/>
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-4">
 					<p><b>Regina</b></p>
 				</div>
 
-				<div class="col-lg-4">
-					<p>Living in the amazing London.</p>
+				<div class="col-lg-4" style="text-align: center;">
+					<p>That's my work.</p>
 				</div>
-				<div class="col-lg-4">
+				<div class="col-lg-4" style="text-align: right;">
 					<p>regina@regina.ie</p>
 				</div>
 			</div>

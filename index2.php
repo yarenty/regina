@@ -9,7 +9,7 @@ $path = ltrim($_SERVER['REQUEST_URI'], '/');    // Trim leading slash(es)
 //var_dump($path);
 //echo '</pre> end<br/>';
 
-$path = substr($path,11); //TODO: remove life!!
+//$path = substr($path,11); //TODO: remove life!!
 
 $elements = explode('.', $path);                // Split path on slashes
 
@@ -28,6 +28,7 @@ if(count($elements) == 0) {                      // No path elements means home
        // echo '<img src="img/works/'.$elements[0].'.jpg" alt="TEST" >';
         $img = 'img/works/'.$elements[0].'.jpg';
         $title = $elements[0];
+        $desc =$elements[0]." - cool painting";
         include_once 'lib/singlepic.php';
     } else {
             header('HTTP/1.1 404 Not Found');
